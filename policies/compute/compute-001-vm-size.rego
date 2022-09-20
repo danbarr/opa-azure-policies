@@ -32,7 +32,7 @@ violators[address] {
 
 # METADATA
 # title: AZURE-COMPUTE-001
-# description: Ensure that only allowed VM size values are defined
+# description: Ensure only allowed VM size values are defined
 # custom:
 #  severity: low
 #  enforcement_level: advisory

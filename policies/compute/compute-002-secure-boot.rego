@@ -26,7 +26,7 @@ violators[address] {
 }
 
 # METADATA
-# title: AZURE-COMPUTE-001
+# title: AZURE-COMPUTE-002
 # description: Ensure that secure boot is enabled
 # custom:
 #  severity: high

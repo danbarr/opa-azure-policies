@@ -1,26 +1,26 @@
 # Compute policies
-policy "azure_compute_001" {
+policy "Linux-VM-Size" {
   query = "data.terraform.policies.azure.compute_001.rule"
   enforcement_level = "advisory"
 }
 
-policy "azure_compute_002" {
+policy "Secure-Boot" {
   query = "data.terraform.policies.azure.compute_002.rule"
   enforcement_level = "mandatory"
 }
 
-policy "azure_compute_003" {
+policy "Legacy-VM-Resource" {
   query = "data.terraform.policies.azure.compute_003.rule"
   enforcement_level = "mandatory"
 }
 
-policy "azure_compute_004" {
+policy "Approved-Extensions" {
   query = "data.terraform.policies.azure.compute_004.rule"
   enforcement_level = "mandatory"
 }
 
 # Networking policies
-policy "azure_network_001" {
+policy "Restrict-RDP-SSH" {
   query = "data.terraform.policies.azure.network_001.rule"
   enforcement_level = "mandatory"
 }
