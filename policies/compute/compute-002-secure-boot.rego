@@ -18,7 +18,7 @@ resources := [resource_changes |
 
 violations := [resource |
 	resource := resources[_]
-	not resource.secure_boot_enabled
+	not resource.change.after.secure_boot_enabled
 ]
 
 violators[address] {

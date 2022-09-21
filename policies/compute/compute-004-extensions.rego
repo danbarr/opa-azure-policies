@@ -23,7 +23,7 @@ resources := [resource_changes |
 
 violations := [resource |
 	resource := resources[_]
-    strings.any_prefix_match(resource.publisher, approved_publishers)
+    strings.any_prefix_match(resource.change.after.publisher, approved_publishers)
 ]
 
 violators[address] {
