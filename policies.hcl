@@ -22,5 +22,5 @@ policy "Approved-Extensions" {
 # Networking policies
 policy "Restrict-RDP-SSH" {
   query = "data.terraform.policies.azure.network_001.rule"
-  enforcement_level = "advisory"
+  enforcement_level = "mandatory"
 }
