@@ -11,7 +11,8 @@ actions := [
 
 types := [
 	"Standard_A1_v2",
-	"Standard_A2_v2"
+	"Standard_A2_v2",
+	"Standard_B2s"
 ]
 
 resources := [resource_changes |

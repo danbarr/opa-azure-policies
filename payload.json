@@ -1,0 +1,9 @@
+{
+  "data": {
+    "type": "workspace-tasks",
+      "attributes": {
+        "enforcement-level": "advisory",
+        "stage": "post_plan"
+      }
+  }
+}
